@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Cultura General</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .question h2 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 10px;
+        }
+        .options input {
+            margin-right: 10px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cuestionario de Cultura General</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <h2>Pregunta 1: ¿Cuál es la capital de Francia?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question1" value="a"> Madrid</label></li>
+                    <li><label><input type="radio" name="question1" value="b"> Berlín</label></li>
+                    <li><label><input type="radio" name="question1" value="c"> París</label></li>
+                    <li><label><input type="radio" name="question1" value="d"> Roma</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 2: ¿Cuál es el río más largo del mundo?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question2" value="a"> Amazonas</label></li>
+                    <li><label><input type="radio" name="question2" value="b"> Nilo</label></li>
+                    <li><label><input type="radio" name="question2" value="c"> Yangtsé</label></li>
+                    <li><label><input type="radio" name="question2" value="d"> Misisipi</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 3: ¿Quién escribió 'Don Quijote de la Mancha'?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question3" value="a"> Gabriel García Márquez</label></li>
+                    <li><label><input type="radio" name="question3" value="b"> Miguel de Cervantes</label></li>
+                    <li><label><input type="radio" name="question3" value="c"> Pablo Neruda</label></li>
+                    <li><label><input type="radio" name="question3" value="d"> Jorge Luis Borges</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 4: ¿Cuál es el país más grande del mundo?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question4" value="a"> Canadá</label></li>
+                    <li><label><input type="radio" name="question4" value="b"> Estados Unidos</label></li>
+                    <li><label><input type="radio" name="question4" value="c"> China</label></li>
+                    <li><label><input type="radio" name="question4" value="d"> Rusia</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 5: ¿En qué año llegó el hombre a la Luna?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question5" value="a"> 1965</label></li>
+                    <li><label><input type="radio" name="question5" value="b"> 1969</label></li>
+                    <li><label><input type="radio" name="question5" value="c"> 1972</label></li>
+                    <li><label><input type="radio" name="question5" value="d"> 1980</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 6: ¿Cuál es el idioma más hablado del mundo?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question6" value="a"> Español</label></li>
+                    <li><label><input type="radio" name="question6" value="b"> Inglés</label></li>
+                    <li><label><input type="radio" name="question6" value="c"> Mandarín</label></li>
+                    <li><label><input type="radio" name="question6" value="d"> Hindi</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 7: ¿Cuál es el océano más grande del mundo?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question7" value="a"> Atlántico</label></li>
+                    <li><label><input type="radio" name="question7" value="b"> Índico</label></li>
+                    <li><label><input type="radio" name="question7" value="c"> Pacífico</label></li>
+                    <li><label><input type="radio" name="question7" value="d"> Ártico</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 8: ¿Cuál es el animal terrestre más rápido?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question8" value="a"> León</label></li>
+                    <li><label><input type="radio" name="question8" value="b"> Tigre</label></li>
+                    <li><label><input type="radio" name="question8" value="c"> Guepardo</label></li>
+                    <li><label><input type="radio" name="question8" value="d"> Caballo</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 9: ¿Quién pintó la Mona Lisa?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question9" value="a"> Vincent van Gogh</label></li>
+                    <li><label><input type="radio" name="question9" value="b"> Pablo Picasso</label></li>
+                    <li><label><input type="radio" name="question9" value="c"> Leonardo da Vinci</label></li>
+                    <li><label><input type="radio" name="question9" value="d"> Rembrandt</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 10: ¿Cuál es el país con mayor población del mundo?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question10" value="a"> India</label></li>
+                    <li><label><input type="radio" name="question10" value="b"> Estados Unidos</label></li>
+                    <li><label><input type="radio" name="question10" value="c"> China</label></li>
+                    <li><label><input type="radio" name="question10" value="d"> Indonesia</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 11: ¿En qué país se encuentra la Torre Eiffel?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question11" value="a"> Italia</label></li>
+                    <li><label><input type="radio" name="question11" value="b"> Alemania</label></li>
+                    <li><label><input type="radio" name="question11" value="c"> Francia</label></li>
+                    <li><label><input type="radio" name="question11" value="d"> España</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 12: ¿Cuál es el planeta más grande del sistema solar?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question12" value="a"> Tierra</label></li>
+                    <li><label><input type="radio" name="question12" value="b"> Júpiter</label></li>
+                    <li><label><input type="radio" name="question12" value="c"> Saturno</label></li>
+                    <li><label><input type="radio" name="question12" value="d"> Neptuno</label></li>
+                </ul>
+            </div>
+            <div class="question">
+                <h2>Pregunta 13: ¿Cuál es el libro sagrado del Islam?</h2>
+                <ul class="options">
+                    <li><label><input type="radio" name="question13" value="a"> Biblia</label></li>
+                    <li><label><input type="radio" name="question13" value="b"> Talmud</label></li>
+                    <li><label><input type="radio" name="question13" value="c"> Corán</label></li>
+                    <li><label><input type="radio" name="question13" value="d"> Bhagavad Gita</label></li>
+                </ul>
+            </div>
+            <button type="submit" class="submit-btn">Enviar respuestas</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('quiz-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('¡Gracias por enviar tus respuestas!');
+        });
+    </script>
+</body>
+</html>
